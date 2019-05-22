@@ -39,6 +39,8 @@ So you want to deploy an app in a container? Hold on! Start by creating a Kubern
 
 And what is a cluster? A cluster is a set of resources, worker nodes, networks, and storage devices that keep apps highly available. After you have your cluster, then you can deploy your apps in containers.
 
+Note: If you want to use a private-only cluster, you will need to enable VRF on your account.  You can do this by opening a ticket and request that it be enabled.  This will need to be done prior to ordering the private only cluster.  
+
 Before you begin, get the [{{site.data.keyword.Bluemix_notm}} account](https://cloud.ibm.com/registration) type that is right for you:
 * **Billable (Pay-As-You-Go or Subscription)**: You can create a free cluster. You can also provision IBM Cloud infrastructure (SoftLayer) resources to create and use in standard clusters.
 * **Lite**: You cannot create a free or standard cluster. [Upgrade your account](/docs/account?topic=account-accountfaqs#changeacct) to a billable account.
